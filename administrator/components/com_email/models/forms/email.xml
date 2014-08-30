@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form addrulepath="/administrator/components/com_email/models/rules">
+    <fieldset name="details">
+        <field
+                name="id"
+                type="hidden"
+                />
+
+        <field name="email_title"
+               type="text"
+               label="COM_EMAIL_EMAIL_FIELD_TITLE_LABEL"
+               description="COM_EMAIL_EMAIL_FIELD_TITLE_DESC"
+               size="40"
+               class="inputbox"
+               required="true"
+               default=""
+                />
+
+        <field name="email_subject"
+               type="text"
+               size="40"
+               class="inputbox"
+               label="COM_EMAIL_SUBJECT"
+               description="COM_EMAIL_SUBJECT_DESC"
+               filter="trim"
+               required="true"
+               default=""
+                />
+
+        <field name="sender_name"
+               type="text"
+               size="40"
+               class="inputbox"
+               label="COM_EMAIL_SENDER_NAME"
+               description="COM_EMAIL_SENDER_NAME_DESC"
+               filter="trim"
+                />
+
+        <field name="sender_email"
+               type="email"
+               label="COM_EMAIL_SENDER_EMAIL"
+               description="COM_EMAIL_SENDER_EMAIL_DESC"
+               required="true"
+               size="40"
+               class="inputbox"
+             />
+
+        <field name="body"
+               type="editor"
+               width="70%"
+               label="COM_EMAIL_BODY"
+               description="COM_EMAIL_BODY_DESC"
+               rows="10"
+               required="true"
+               hide="readmore,article"
+                />
+    </fieldset>
+</form>
