@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/administrator/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/administrator/help" />
+      <excludeFolder url="file://$MODULE_DIR$/administrator/includes" />
+      <excludeFolder url="file://$MODULE_DIR$/administrator/language" />
+      <excludeFolder url="file://$MODULE_DIR$/administrator/manifests" />
+      <excludeFolder url="file://$MODULE_DIR$/administrator/modules" />
+      <excludeFolder url="file://$MODULE_DIR$/administrator/templates" />
+      <excludeFolder url="file://$MODULE_DIR$/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/cli" />
+      <excludeFolder url="file://$MODULE_DIR$/components/com_banners" />
+      <excludeFolder url="file://$MODULE_DIR$/components/com_contact" />
+      <excludeFolder url="file://$MODULE_DIR$/components/com_content" />
+      <excludeFolder url="file://$MODULE_DIR$/components/com_finder" />
+      <excludeFolder url="file://$MODULE_DIR$/components/com_helloworld" />
+      <excludeFolder url="file://$MODULE_DIR$/components/com_mailto" />
+      <excludeFolder url="file://$MODULE_DIR$/components/com_media" />
+      <excludeFolder url="file://$MODULE_DIR$/components/com_newsfeeds" />
+      <excludeFolder url="file://$MODULE_DIR$/components/com_search" />
+      <excludeFolder url="file://$MODULE_DIR$/components/com_users" />
+      <excludeFolder url="file://$MODULE_DIR$/components/com_weblinks" />
+      <excludeFolder url="file://$MODULE_DIR$/components/com_wrapper" />
+      <excludeFolder url="file://$MODULE_DIR$/images" />
+      <excludeFolder url="file://$MODULE_DIR$/includes" />
+      <excludeFolder url="file://$MODULE_DIR$/language" />
+      <excludeFolder url="file://$MODULE_DIR$/libraries" />
+      <excludeFolder url="file://$MODULE_DIR$/logs" />
+      <excludeFolder url="file://$MODULE_DIR$/media" />
+      <excludeFolder url="file://$MODULE_DIR$/modules" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins" />
+      <excludeFolder url="file://$MODULE_DIR$/templates" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
+
