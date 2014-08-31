@@ -21,7 +21,7 @@ class JConfig {
 	public $secret = 'LRWKNVNWV7JGGBGt';
 	public $gzip = '0';
 	public $error_reporting = 'default';
-	public $helpurl = 'http://help.joomla.org/proxy/index.php?option=com_help&amp;keyref=Help{major}{minor}:{keyref}';
+	public $helpurl = 'http://help.joomla.org/proxy/index.php?option=com_help&keyref=Help{major}{minor}:{keyref}';
 	public $ftp_host = '127.0.0.1';
 	public $ftp_port = '21';
 	public $ftp_user = '';
@@ -30,15 +30,15 @@ class JConfig {
 	public $ftp_enable = '0';
 	public $offset = 'UTC';
 	public $mailer = 'mail';
-	public $mailfrom = 'glmalaka@gmail.com';
+	public $mailfrom = 'glmalaka.11@cse.mrt.ac.lk';
 	public $fromname = 'seproject';
 	public $sendmail = '/usr/sbin/sendmail';
-	public $smtpauth = '0';
-	public $smtpuser = '';
-	public $smtppass = '';
-	public $smtphost = 'localhost';
-	public $smtpsecure = 'none';
-	public $smtpport = '25';
+	public $smtpauth = '1';
+	public $smtpuser = 'glmalaka.11@cse.mrt.ac.lk';
+	public $smtppass = 'Malaka@Lahiru';
+	public $smtphost = 'smtp.gmail.com';
+	public $smtpsecure = 'ssl';
+	public $smtpport = '465';
 	public $caching = '0';
 	public $cache_handler = 'file';
 	public $cachetime = '15';
@@ -57,4 +57,10 @@ class JConfig {
 	public $tmp_path = 'D:\\xampp\\htdocs\\seproject/tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
+	public $MetaRights = '';
+	public $sitename_pagetitles = '0';
+	public $force_ssl = '0';
+	public $feed_email = 'author';
+	public $cookie_domain = '';
+	public $cookie_path = '';
 }

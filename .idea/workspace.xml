@@ -2,7 +2,93 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31623181-4098-4894-9d67-3adaac1a646a" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_email\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_email\.idea\com_email.iml" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_email\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_email\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_email\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_email\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_email\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_email\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_helloworld\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_helloworld\.idea\com_helloworld.iml" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_helloworld\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_helloworld\.idea\inspectionProfiles\Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_helloworld\.idea\inspectionProfiles\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_helloworld\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_helloworld\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_helloworld\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_helloworld\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_helloworld\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_lendr\controller.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_lendr\controllers\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_lendr\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_lendr\install.mysql.sql" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_lendr\languages\en-GB\en-GB.com_lendr.ini" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_lendr\languages\en-GB\en-GB.com_lendr.sys.ini" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_lendr\languages\en-GB\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_lendr\languages\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_lendr\lendr.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_lendr\lendr.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_lendr\models\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_lendr\views\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\administrator\components\com_lendr\views\test\view.html.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_helloworld\models\forms\helloworld.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_helloworld\views\helloworld\tmpl\default_body.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_helloworld\views\helloworld\tmpl\default_foot.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_helloworld\views\helloworld\tmpl\default_head.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_helloworld\views\helloworld\tmpl\edit.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\assets\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\controllers\add.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\controllers\default.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\controllers\delete.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\controllers\edit.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\controllers\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\controllers\lend.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\controllers\list.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\controllers\request.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\controllers\review.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\controllers\save.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\controllers\wish.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\helpers\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\languages\en-GB\en-GB.com_lendr.ini" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\languages\en-GB\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\languages\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\lendr.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\models\book.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\models\default.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\models\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\models\library.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\models\profile.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\models\review.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\models\waitlist.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\models\wishlist.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\router.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\tables\book.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\tables\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\tables\library.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\tables\review.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\tables\waitlist.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\tables\wishlist.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\views\book\html.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\views\book\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\views\book\raw.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\views\book\tmpl\default.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\views\book\tmpl\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\seproject\components\com_lendr\views\index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configuration.php" afterPath="$PROJECT_DIR$/configuration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_helloworld/views/updhelloworld/tmpl/default.php" afterPath="$PROJECT_DIR$/components/com_helloworld/views/updhelloworld/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_helloworld/language/en-GB/en-GB.com_helloworld.ini" afterPath="$PROJECT_DIR$/components/com_helloworld/language/en-GB/en-GB.com_helloworld.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_helloworld/helpers/helloworld.php" afterPath="$PROJECT_DIR$/administrator/components/com_helloworld/helpers/helloworld.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_helloworld/tables/helloworld.php" afterPath="$PROJECT_DIR$/administrator/components/com_helloworld/tables/helloworld.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_helloworld/models/helloworld.php" afterPath="$PROJECT_DIR$/components/com_helloworld/models/helloworld.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/seproject.iml" afterPath="$PROJECT_DIR$/.idea/seproject.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_helloworld/controllers/updhelloworld.php" afterPath="$PROJECT_DIR$/components/com_helloworld/controllers/updhelloworld.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_helloworld/models/updhelloworld.php" afterPath="$PROJECT_DIR$/components/com_helloworld/models/updhelloworld.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_helloworld/models/forms/updhelloworld.xml" afterPath="$PROJECT_DIR$/components/com_helloworld/models/forms/updhelloworld.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_helloworld/views/helloworld/view.html.php" afterPath="$PROJECT_DIR$/components/com_helloworld/views/helloworld/view.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_helloworld/views/updhelloworld/view.html.php" afterPath="$PROJECT_DIR$/components/com_helloworld/views/updhelloworld/view.html.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="seproject.iws" />
@@ -25,98 +111,7 @@
     <favorites_list name="seproject" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="wishlist.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/com_lendr/models/wishlist.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="book.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/com_lendr/tables/book.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="html.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/com_lendr/views/book/html.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/com_lendr/views/book/tmpl/default.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lendr.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/components/com_lendr/lendr.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="55" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="289">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controller.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/administrator/components/com_lendr/controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="260" selection-end="260" vertical-scroll-proportion="0.41078067" vertical-offset="0" max-vertical-offset="538">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view.html.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administrator/components/com_lendr/views/test/view.html.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="7" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="221">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="book.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/com_lendr/models/book.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="raw.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/com_lendr/views/book/raw.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/com_lendr/tables/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -132,11 +127,23 @@
         <option value="$PROJECT_DIR$/administrator/components/com_contact/controllers/contacts.php" />
         <option value="$PROJECT_DIR$/components/com_helloworld/views/helloworld/tmpl/default.php" />
         <option value="$PROJECT_DIR$/administrator/components/com_helloworld/helpers/helloworld.php" />
-        <option value="$PROJECT_DIR$/components/com_helloworld/models/helloworld.php" />
         <option value="$PROJECT_DIR$/administrator/components/com_lendr/lendr.php" />
         <option value="$PROJECT_DIR$/administrator/components/com_lendr/views/view.html.php" />
         <option value="$PROJECT_DIR$/administrator/components/com_lendr/views/test/view.html.php" />
         <option value="$PROJECT_DIR$/administrator/components/com_lendr/controller.php" />
+        <option value="$PROJECT_DIR$/components/com_lendr/views/review/view.html.php" />
+        <option value="$PROJECT_DIR$/components/com_helloworld/controllers/updhelloworld.php" />
+        <option value="$PROJECT_DIR$/components/com_helloworld/language/en-GB/en-GB.com_helloworld.ini" />
+        <option value="$PROJECT_DIR$/administrator/components/com_email/controllers/email.php" />
+        <option value="$PROJECT_DIR$/administrator/components/com_email/controller.php" />
+        <option value="$PROJECT_DIR$/components/com_email/email.php" />
+        <option value="$PROJECT_DIR$/components/com_email/controller.php" />
+        <option value="$PROJECT_DIR$/administrator/components/com_email/models/emails.php" />
+        <option value="$PROJECT_DIR$/components/com_helloworld/views/updhelloworld/view.html.php" />
+        <option value="$PROJECT_DIR$/components/com_helloworld/views/updhelloworld/tmpl/default.php" />
+        <option value="$PROJECT_DIR$/components/com_helloworld/models/forms/updhelloworld.xml" />
+        <option value="$PROJECT_DIR$/components/com_helloworld/models/updhelloworld.php" />
+        <option value="$PROJECT_DIR$/components/com_helloworld/models/helloworld.php" />
       </list>
     </option>
   </component>
@@ -154,7 +161,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -173,7 +180,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -240,12 +246,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="web-ide.project.structure" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -307,32 +314,36 @@
       <created>1409370068274</created>
       <updated>1409370068274</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial setup for final launch...">
+      <created>1409372164534</created>
+      <updated>1409372164534</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21815519" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17423134" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289689" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -354,6 +365,76 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/components/com_helloworld/views/helloworld/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="15" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_helloworld/views/updhelloworld/view.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_helloworld/views/updhelloworld/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="24" selection-start="1254" selection-end="1254" vertical-scroll-proportion="0.0" vertical-offset="215" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_email/controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="51" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0" vertical-offset="368" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_email/controllers/email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="5" selection-start="291" selection-end="1026" vertical-scroll-proportion="0.0" vertical-offset="249" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_email/email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_helloworld/language/en-GB/en-GB.com_helloworld.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_helloworld/controllers/updhelloworld.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="876" selection-end="876" vertical-scroll-proportion="0.0" vertical-offset="338" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_helloworld/access.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="19" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_helloworld/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="23" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0" vertical-offset="313" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_helloworld/models/forms/helloworld.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="7" selection-start="0" selection-end="1259" vertical-scroll-proportion="0.0" vertical-offset="354" max-vertical-offset="986" />
@@ -364,19 +445,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_helloworld/models/forms/helloworld.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/com_helloworld/models/helloworld.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="6" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1513" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_helloworld/views/helloworld/tmpl/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="833" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/com_helloworld/views/helloworld/view.html.php">
@@ -409,11 +480,6 @@
         <state line="3" column="16" selection-start="0" selection-end="1568" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="833" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_helloworld/views/helloworld/tmpl/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="2" selection-start="88" selection-end="88" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="187" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_helloworld/controllers/helloworld.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585" />
@@ -444,187 +510,182 @@
         <state line="51" column="7" selection-start="0" selection-end="1259" vertical-scroll-proportion="0.0" vertical-offset="354" max-vertical-offset="986" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_helloworld/models/forms/updhelloworld.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_helloworld/models/forms/helloworld.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_helloworld/models/helloworld.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="6" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1513" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_helloworld/views/helloworld/tmpl/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="833" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/com_helloworld/views/helloworld/view.html.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="5" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="890" max-vertical-offset="1428" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_helloworld/access.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="19" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_helloworld/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="23" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0" vertical-offset="313" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_helloworld/views/helloworld/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="15" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_helloworld/controllers/updhelloworld.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="876" selection-end="876" vertical-scroll-proportion="0.0" vertical-offset="338" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_helloworld/language/en-GB/en-GB.com_helloworld.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_email/controllers/emails.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="459" />
+        <state line="10" column="0" selection-start="231" selection-end="231" vertical-scroll-proportion="-1.4509804" vertical-offset="96" max-vertical-offset="459" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_email/controllers/email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="29" selection-start="263" selection-end="263" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="323" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_lendr/controllers/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="564" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_lendr/controllers/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="10.038462" vertical-offset="261" max-vertical-offset="799" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_lendr/controllers/delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="564" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_lendr/controllers/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="564" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_lendr/controllers/wish.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="564" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_lendr/controllers/save.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="564" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_lendr/controllers/review.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="564" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_lendr/controllers/request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="564" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_lendr/controllers/list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="564" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_lendr/controllers/lend.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="564" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_lendr/controllers/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="564" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_lendr/models/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2414" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_lendr/models/library.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="564" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_lendr/models/profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="564" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_lendr/models/review.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="564" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_lendr/models/waitlist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="564" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_lendr/models/wishlist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="564">
+        <state line="29" column="5" selection-start="291" selection-end="1026" vertical-scroll-proportion="0.0" vertical-offset="249" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_lendr/tables/index.html">
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_email/controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="564">
+        <state line="26" column="0" selection-start="667" selection-end="667" vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="986">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_lendr/tables/book.php">
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_email/email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="564">
+        <state line="1" column="0" selection-start="6" selection-end="10" vertical-scroll-proportion="-0.33333334" vertical-offset="0" max-vertical-offset="612">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_lendr/views/book/raw.php">
+    <entry file="file://$PROJECT_DIR$/components/com_email/email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="564">
+        <state line="15" column="0" selection-start="420" selection-end="420" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="357">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_lendr/views/book/tmpl/default.php">
+    <entry file="file://$PROJECT_DIR$/components/com_email/controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="564">
+        <state line="10" column="1" selection-start="207" selection-end="207" vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="340">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_lendr/models/book.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_lendr/views/book/html.php">
+    <entry file="file://$PROJECT_DIR$/configuration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="564">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_lendr/views/test/view.html.php">
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_email/email.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="7" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="221">
+        <state line="40" column="21" selection-start="1187" selection-end="1187" vertical-scroll-proportion="0.03107861" vertical-offset="663" max-vertical-offset="1751">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_lendr/lendr.php">
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_helloworld/helloworld.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="55" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="289">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_lendr/controller.php">
+    <entry file="file://$PROJECT_DIR$/components/com_helloworld/views/updhelloworld/tmpl/default.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="260" selection-end="260" vertical-scroll-proportion="0.41078067" vertical-offset="0" max-vertical-offset="538">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="501">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_email/views/email/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="3.0" vertical-offset="153" max-vertical-offset="986">
+          <folding>
+            <marker date="1409466024969" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409466024969" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409466024969" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409466024969" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409466024969" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409466024969" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409466024969" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1409466024969" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_helloworld/views/updhelloworld/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="23" selection-start="740" selection-end="740" vertical-scroll-proportion="-2.6666667" vertical-offset="221" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_helloworld/models/forms/updhelloworld.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="352" selection-end="357" vertical-scroll-proportion="0.5532544" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_email/models/emails.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="5" selection-start="426" selection-end="426" vertical-scroll-proportion="0.4906367" vertical-offset="61" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_helloworld/models/helloworlds.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="9" selection-start="523" selection-end="523" vertical-scroll-proportion="0.6179775" vertical-offset="27" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_helloworld/models/updhelloworld.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="16" selection-start="2112" selection-end="2112" vertical-scroll-proportion="-0.27340823" vertical-offset="1234" max-vertical-offset="1768">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_helloworld/models/helloworld.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="29" selection-start="1747" selection-end="1747" vertical-scroll-proportion="0.7738792" vertical-offset="640" max-vertical-offset="1615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_helloworld/views/updhelloworld/view.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="0.331384" vertical-offset="0" max-vertical-offset="1003">
           <folding />
         </state>
       </provider>

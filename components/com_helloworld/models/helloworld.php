@@ -1,83 +1,90 @@
 <?php
+
 // No direct access to this file
 defined('_JEXEC') or die('Restricted access');
  
-// import Joomla modelform library
-jimport('joomla.application.component.modeladmin');
+// import Joomla modelitem library
+jimport('joomla.application.component.modelitem');
  
 /**
  * HelloWorld Model
  */
-class HelloWorldModelHelloWorld extends JModel
+class HelloWorldModelHelloWorld extends JModelItem
 {
+    /**
+     * @var object item
+     */
+    protected $item;
+ 
+    /**
+     * Method to auto-populate the model state.
+     *
+     * This method should only be called once per instantiation and is designed
+     * to be called on the first call to the getState() method unless the model
+     * configuration flag to ignore the request is set.
+     *
+     * Note. Calling getState in this method will result in recursion.
+     *
+     * @return	void
+     * @since	1.6
+     */
+    protected function populateState()
+    {
+        $app = JFactory::getApplication();
+        // Get the message id
+        $id = JRequest::getInt('id');
+        $this->setState('message.id', $id);
+ 
+        // Load the parameters.
+        $params = $app->getParams();
+        $this->setState('params', $params);
+        parent::populateState();
+    }
+ 
+    /**
+     * Returns a reference to the a Table object, always creating it.
+     *
+     * @param  type    $type   The table type to instantiate
+     * @param  string  $prefix A prefix for the table class name. Optional.
+     * @param  array   $config Configuration array for model. Optional.
+     * @return JTable  A       database object
+     * @since  1.6
+     */
+    public function getTable($type = 'HelloWorld', $prefix = 'HelloWorldTable', $config = array())
+    {
+        return JTable::getInstance($type, $prefix, $config);
+    }
+ 
 	/**
-	 * Method override to check if you can edit an existing record.
-	 *
-	 * @param	array	$data	An array of input data.
-	 * @param	string	$key	The name of the key for the primary key.
-	 *
-	 * @return	boolean
-	 * @since	1.6
+	 * Get the message
+	 * @return object The message to be displayed to the user
 	 */
-	protected function allowEdit($data = array(), $key = 'id')
-	{
-		// Check specific edit permission then general edit permission.
-		return JFactory::getUser()->authorise('core.edit', 'com_helloworld.message.'.((int) isset($data[$key]) ? $data[$key] : 0)) or parent::allowEdit($data, $key);
-	}
-	/**
-	 * Returns a reference to the a Table object, always creating it.
-	 *
-	 * @param	type	The table type to instantiate
-	 * @param	string	A prefix for the table class name. Optional.
-	 * @param	array	Configuration array for model. Optional.
-	 * @return	JTable	A database object
-	 * @since	1.6
-	 */
-	public function getTable($type = 'HelloWorld', $prefix = 'HelloWorldTable', $config = array()) 
-	{
-		return JTable::getInstance($type, $prefix, $config);
-	}
-	/**
-	 * Method to get the record form.
-	 *
-	 * @param	array	$data		Data for the form.
-	 * @param	boolean	$loadData	True if the form is to load its own data (default case), false if not.
-	 * @return	mixed	A JForm object on success, false on failure
-	 * @since	1.6
-	 */
-	public function getForm($data = array(), $loadData = true) 
-	{
-		// Get the form.
-		$form = $this->loadForm('com_helloworld.helloworld', 'helloworld', array('control' => 'jform', 'load_data' => $loadData));
-		if (empty($form)) 
-		{
-			return false;
+    public function getItem()
+    {
+        if(!isset($this->item)){
+            $id = $this->getState('message.id');
+			$this->_db->setQuery($this->_db->getQuery(true)
+				->from('#__helloworld as h')
+				->leftJoin('#__categories as c ON h.catid=c.id')
+				->select('h.greeting, h.params, c.title as category')
+				->where('h.id=' . (int)$id));
+			if (!$this->item = $this->_db->loadObject()) 
+			{
+				$this->setError($this->_db->getError());
+			}
+			else
+			{
+				// Load the JSON string
+				$params = new JRegistry;
+				$params->loadJSON($this->item->params);
+				$this->item->params = $params;
+ 
+				// Merge global params with item params
+				$params = clone $this->getState('params');
+				$params->merge($this->item->params);
+				$this->item->params = $params;
+			}
 		}
-		return $form;
-	}
-	/**
-	 * Method to get the script that have to be included on the form
-	 *
-	 * @return string	Script files
-	 */
-	public function getScript() 
-	{
-		return 'administrator/components/com_helloworld/models/forms/helloworld.js';
-	}
-	/**
-	 * Method to get the data that should be injected in the form.
-	 *
-	 * @return	mixed	The data for the form.
-	 * @since	1.6
-	 */
-	protected function loadFormData() 
-	{
-		// Check the session for previously entered form data.
-		$data = JFactory::getApplication()->getUserState('com_helloworld.edit.helloworld.data', array());
-		if (empty($data)) 
-		{
-			$data = $this->getItem();
-		}
-		return $data;
+		return $this->item;
 	}
 }

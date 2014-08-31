@@ -31,9 +31,9 @@ class HelloWorldControllerUpdHelloWorld extends JControllerForm
 
     	// check if ok and display appropriate message.  This can also have a redirect if desired.
         if ($upditem) {
-            echo "<h2>Updated Greeting has been saved</h2>";
+            echo "<h2>Email was successfully sent.</h2>";
         } else {
-            echo "<h2>Updated Greeting failed to be saved</h2>";
+            echo "<h2>Email was failed to sent.</h2>";
         }
 
 		return true;

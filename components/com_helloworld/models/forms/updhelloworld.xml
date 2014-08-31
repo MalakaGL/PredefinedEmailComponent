@@ -9,9 +9,9 @@
             size="1"
             label="COM_HELLOWORLD_FORM_LBL_UPDHELLOWORLD_ID"
             description="COM_HELLOWORLD_FORM_DESC_UPDHELLOWORLD_ID"
-            query="select id, greeting from #__helloworld"
+            query="select id, email_title from #__email_templates"
             key_field="id"
-            value_field="greeting"
+            value_field="email_title"
             default="0"
 			required="true"
             >
@@ -19,7 +19,7 @@
         </field>
 
 		<field
-            name="greeting"
+            name="email_title"
             type="text"
 			description="COM_HELLOWORLD_FORM_DESC_UPDHELLOWORLD_GREETING"
 			label="COM_HELLOWORLD_FORM_LBL_UPDHELLOWORLD_GREETING"
