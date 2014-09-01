@@ -1,18 +1,28 @@
 <?php
 
-    // No direct access to this file
-    defined('_JEXEC') or die('Restricted access');
+// No direct access to this file
+defined('_JEXEC') or die('Restricted access');
 
-    // Include dependancy of the main model form
-    jimport('joomla.application.component.modelform');
-    // import Joomla modelitem library
-    jimport('joomla.application.component.modelitem');
-    // Include dependancy of the dispatcher
-    jimport('joomla.event.dispatcher');
+// Include dependancy of the main model form
+jimport('joomla.application.component.modelform');
 
-    /**
-     * UpdHelloWorld Model
-     */
+// import Joomla modelitem library
+jimport('joomla.application.component.modelitem');
+
+// Include dependancy of the dispatcher
+jimport('joomla.event.dispatcher');
+
+JModel::addIncludePath(JPATH_ROOT.DS.'components'.DS.'com_email'.DS.'controllers', 'email');
+
+/**
+ * UpdHelloWorld Model
+ *
+ * @category User
+ * @package  Predefined_Email
+ * @author   MalakaGL <glmalaka@gmail.com>
+ * @license  http://www.opensource.com FOSS
+ * @link     malaka
+ */
 class HelloWorldModelUpdHelloWorld extends JModelForm
 {
     /**
@@ -23,11 +33,13 @@ class HelloWorldModelUpdHelloWorld extends JModelForm
     /**
      * Get the data for a new qualification
      *
-     * @return void
+     * @param array   $data     data
+     * @param boolean $loadData boolean
+     *
+     * @return boolean
      */
     public function getForm($data = array(), $loadData = true)
     {
-
         $app = JFactory::getApplication('site');
 
         // Get the form.
@@ -36,19 +48,19 @@ class HelloWorldModelUpdHelloWorld extends JModelForm
             return false;
         }
         return $form;
-
     }
 
-        /**
-         * Get the message
-         * @return object The message to be displayed to the user
-         */
+    /**
+     * Get the message
+     *
+     * @return object The message to be displayed to the user
+     */
     function &getItem()
     {
         if (!isset($this->_item)) {
-                $cache = JFactory::getCache('com_helloworld', '');
-                $id = $this->getState('helloworld.id');
-                $this->_item =  $cache->get($id);
+            $cache = JFactory::getCache('com_helloworld', '');
+            $id = $this->getState('helloworld.id');
+            $this->_item =  $cache->get($id);
             if ($this->_item === false) {
                 // Menu parameters
                 $menuitemid = JRequest::getInt('Itemid');
@@ -61,39 +73,43 @@ class HelloWorldModelUpdHelloWorld extends JModelForm
                     $headingbgcolor = $menuparams->get('headingbgcolor');
                     // This shows how to get an individual parameter for use
                 }
-                $this->setState('menuparams', $menuparams);
-                // this sets the parameter values to the state for later use
+                $this->setState('menuparams', $menuparams);  // this sets the parameter values to the state for later use
             }
         }
-        return $this->_item;
 
+        return $this->_item;
     }
 
     /**
-     * @param $data
-     * @return bool
-     */
+     * Update table
+     *
+     * @param Object $data date to be updated
+     *
+     * @return boolean
+     **/
     public function updItem($data)
     {
-        // set the variables from the passed data
-        $id = $data['id'];
-        $greeting = $data['greeting'];
-
-        // set the data into a query to update the record
-        $db		= $this->getDbo();
-        $query	= $db->getQuery(true);
-        $query->clear();
-        $query->update(' #__helloworld ');
-        $query->set(' greeting = '.$db->Quote($greeting));
-        $query->where(' id = ' . (int) $id);
-
-        $db->setQuery((string)$query);
-
-        if (!$db->query()) {
-            JError::raiseError(500, $db->getErrorMsg());
-            return false;
-        } else {
-            return true;
-        }
+        EmailController::sendEMail($data['greeting']);
+        /**        // set the variables from the passed data
+        //        $id = $data['id'];
+        //        $greeting = $data['greeting'];
+        //
+        //        // set the data into a query to update the record
+        //		$db		= $this->getDbo();
+        //		$query	= $db->getQuery(true);
+        //        $query->clear();
+        //		$query->update(' #__helloworld ');
+        //		$query->set(' greeting = '.$db->Quote($greeting) );
+        //		$query->where(' id = ' . (int) $id );
+        //
+        //		$db->setQuery((string)$query);
+        //
+        //        if (!$db->query()) {
+        //            JError::raiseError(500, $db->getErrorMsg());
+        //        	return false;
+        //        } else {
+        //        	return true;
+        //		}
+         **/
     }
 }

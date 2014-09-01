@@ -1,22 +1,21 @@
 <?php
 
-    // No direct access to this file
-    defined('_JEXEC') or die('Restricted access');
+// No direct access to this file
+defined('_JEXEC') or die('Restricted access');
 
-    JHtml::_('behavior.keepalive');
-    JHtml::_('behavior.formvalidation');
-    JHtml::_('behavior.tooltip');
+JHtml::_('behavior.keepalive');
+JHtml::_('behavior.formvalidation');
+JHtml::_('behavior.tooltip');
 
-    // get the menu parameters for use
-    $menuparams = $this->state->get("menuparams");
-    $headingtxtcolor = $menuparams->get("headingtxtcolor");
-    $headingbgcolor = $menuparams->get("headingbgcolor");
+// get the menu parameters for use
+$menuparams = $this->state->get("menuparams");
+$headingtxtcolor = $menuparams->get("headingtxtcolor");
+$headingbgcolor = $menuparams->get("headingbgcolor");
 
 ?>
     <h2 style="color:<?php echo $headingtxtcolor; ?>; background-color:<?php echo $headingbgcolor; ?>;">Enter your email</h2>
 
-    <form class="form-validate" action="<?php echo JRoute::_('index.php'); ?>"
-          method="post" id="updhelloworld" name="updhelloworld">
+    <form class="form-validate" action="<?php echo JRoute::_('index.php'); ?>" method="post" id="updhelloworld" name="updhelloworld">
 		<fieldset>
         	<dl>
           	    <dt><?php echo $this->form->getLabel('id'); ?></dt>

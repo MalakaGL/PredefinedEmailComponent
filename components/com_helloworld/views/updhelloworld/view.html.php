@@ -2,19 +2,31 @@
 
 // No direct access to this file
 defined('_JEXEC') or die('Restricted access');
+
 // import Joomla view library
 jimport('joomla.application.component.view');
+
 // import Joomla html for use with stylesheets
 jimport('joomla.html.html');
 
 /**
  * HTML View class for the UpdHelloWorld Component
+ *
+ * @category User
+ * @package  Predefined_Email
+ * @author   MalakaGL <glmalaka@gmail.com>
+ * @license  http://www.opensource.com FOSS
+ * @link     malaka
  */
 class HelloWorldViewUpdHelloWorld extends JView
 {
     /**
      * Overwriting JView display method
-     **/
+     *
+     * @param string $tpl template
+     *
+     * @return void
+     */
     function display($tpl = null)
     {
         $app		= JFactory::getApplication();
@@ -27,11 +39,8 @@ class HelloWorldViewUpdHelloWorld extends JView
         $this->form	= $this->get('Form');
         $this->state = $state;
 
-        /**
-         * Check for errors.
-         **/
-        if(count($errors = $this->get('Errors')))
-        {
+        // Check for errors.
+        if (count($errors = $this->get('Errors'))) {
             JError::raiseError(500, implode('<br />', $errors));
             return false;
         }
@@ -44,7 +53,9 @@ class HelloWorldViewUpdHelloWorld extends JView
     }
 
     /**
-     * Add the stylesheet to the document.
+     * Add the stylesheet to the document
+     *
+     * @return void.
      */
     protected function addDocStyle()
     {

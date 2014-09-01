@@ -1,8 +1,10 @@
 <?php
 /**
- * @package		Joomla.Administrator
- * @copyright	Copyright (C) 2005 - 2014 Open Source Matters, Inc. All rights reserved.
- * @license		GNU General Public License version 2 or later; see LICENSE.txt
+ * Comment
+ *
+ * @package   Joomla.Administrator
+ * @copyright Copyright (C) 2005 - 2014 Open Source Matters,Inc. All rights reserved.
+ * @license   GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 // Set flag that this is a parent file
@@ -10,12 +12,12 @@ define('_JEXEC', 1);
 define('DS', DIRECTORY_SEPARATOR);
 
 if (file_exists(dirname(__FILE__) . '/defines.php')) {
-	include_once dirname(__FILE__) . '/defines.php';
+        include_once dirname(__FILE__) . '/defines.php';
 }
 
 if (!defined('_JDEFINES')) {
-	define('JPATH_BASE', dirname(__FILE__));
-	require_once JPATH_BASE.'/includes/defines.php';
+    define('JPATH_BASE', dirname(__FILE__));
+    require_once JPATH_BASE.'/includes/defines.php';
 }
 
 require_once JPATH_BASE.'/includes/framework.php';
@@ -29,9 +31,7 @@ JDEBUG ? $_PROFILER->mark('afterLoad') : null;
 $app = JFactory::getApplication('administrator');
 
 // Initialise the application.
-$app->initialise(array(
-	'language' => $app->getUserState('application.lang')
-));
+$app->initialise(array('language' => $app->getUserState('application.lang')));
 
 // Mark afterIntialise in the profiler.
 JDEBUG ? $_PROFILER->mark('afterInitialise') : null;

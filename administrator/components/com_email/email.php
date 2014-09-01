@@ -1,31 +1,31 @@
 <?php
-    error_reporting(E_ALL);
-    ini_set('display_errors',1);
 
-    // No direct access to this file
-    defined('_JEXEC') or die('Restricted access');
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
-    // Set some global property
-    $document = JFactory::getDocument();
-    $document->addStyleDeclaration('.icon-48-email {background-image: url(../media/com_email/images/com_email_icon_48.png);}');
+// No direct access to this file
+defined('_JEXEC') or die('Restricted access');
 
-    // Access check.
-    if (!JFactory::getUser()->authorise('core.manage', 'com_email'))
-    {
-        return JError::raiseWarning(404, JText::_('JERROR_ALERTNOAUTHOR'));
-    }
+// Set some global property
+$document = JFactory::getDocument();
+$document->addStyleDeclaration('.icon-48-email {background-image: url(../media/com_email/images/com_email_icon_48.png);}');
 
-    // require helper file
-    JLoader::register('EmailHelper', dirname(__FILE__) . DS . 'helpers' . DS . 'email.php');
+// Access check.
+if (!JFactory::getUser()->authorise('core.manage', 'com_email')) {
+    return JError::raiseWarning(404, JText::_('JERROR_ALERTNOAUTHOR'));
+}
 
-    // import joomla controller library
-    jimport('joomla.application.component.controller');
+// require helper file
+JLoader::register('EmailHelper', dirname(__FILE__) . DS . 'helpers' . DS . 'email.php');
 
-    // Get an instance of the controller prefixed by Email
-    $controller = JController::getInstance('Email');
+// import joomla controller library
+jimport('joomla.application.component.controller');
 
-    // Perform the Request task
-    $controller->execute(JRequest::getCmd('task'));
+// Get an instance of the controller prefixed by Email
+$controller = JController::getInstance('Email');
 
-    // Redirect if set by the controller
-    $controller->redirect();
+// Perform the Request task
+$controller->execute(JRequest::getCmd('task'));
+
+// Redirect if set by the controller
+$controller->redirect();

@@ -1,18 +1,23 @@
 <?php
-    // No direct access
-    defined('_JEXEC') or die('Restricted access');
-    JHtml::_('behavior.tooltip');
-    JHtml::_('behavior.formvalidation');
-    $params = $this->form->getFieldsets('params');
+
+// No direct access
+defined('_JEXEC') or die('Restricted access');
+JHtml::_('behavior.tooltip');
+JHtml::_('behavior.formvalidation');
+$params = $this->form->getFieldsets('params');
 ?>
 <form action="<?php echo JRoute::_('index.php?option=com_email&layout=edit&id='.(int) $this->item->id); ?>" method="post" name="adminForm" id="email-form" class="form-validate">
 
     <div class="width-60 fltlft">
         <fieldset class="adminform">
             <ul class="adminformlist">
-                <?php foreach($this->form->getFieldset('details') as $field): ?>
+                <?php
+                foreach($this->form->getFieldset('details') as $field):
+                    ?>
                     <li><?php echo $field->label;echo $field->input; echo "<br><br>"?></li>
-                <?php endforeach; ?>
+                <?php
+                endforeach;
+                ?>
             </ul>
     </div>
     </fieldset>
