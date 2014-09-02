@@ -101,7 +101,7 @@ class HelloWorldModelUpdHelloWorld extends JModelForm
         //Now instantiate the model object using Joomla's camel case type naming protocol.
         $email = JModel::getInstance('email', 'EmailModel');
 
-        if ($email->sendEMail($data['email_title'])) {
+        if ($email->sendEMail($data['user'], $data['id'])) {
             return true;
         }
 

@@ -107,6 +107,7 @@ class EmailModelEmail extends JModelAdmin
      * Comment
      *
      * @param string $recipient string
+     * @param int    $id        id of the email to send
      *
      * @return void
      */
@@ -117,19 +118,41 @@ class EmailModelEmail extends JModelAdmin
         $sender = array($config->
             getValue('config.mailfrom'), $config->getValue('config.fromname'));
         $mailer->setSender($sender);
-        $user = JFactory::getUser();
+        $email = $this->getEmail($id);
         $mailer->addRecipient($recipient);
-        $body   = "Your body string
-        \nin double quotes if you want to parse the \nnewlines etc";
-        $mailer->setSubject('Your subject string');
+        $body   = 'Sent by \n'.$email[4].'('.$email[5].')\n\n'.$email[3];
+        $mailer->setSubject($email[2]);
         $mailer->setBody($body);
         $send = $mailer->Send();
         if ( $send !== true ) {
-            echo 'Error sending email: ' . $send->__toString();
             return false;
         } else {
-            echo 'Mail sent';
             return true;
         }
+    }
+
+    /**
+     * Get email
+     *
+     * @param int $id id of the email
+     *
+     * @return array email details
+     */
+    protected function getEmail($id)
+    {
+        $db = JFactory::getDBO();
+        $query = $db->getQuery(true)
+            ->select('*')
+            ->from($db->quoteName('#__email_templates'))
+            ->where($db->quoteName('id').' = '.(int)$id);
+        $db->setQuery($query);
+
+        // Load the row.
+        $result = $db->loadRow();
+
+        if ($result) {
+            return $result;
+        }
+        return null;
     }
 }

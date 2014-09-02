@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31623181-4098-4894-9d67-3adaac1a646a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configuration.php" afterPath="$PROJECT_DIR$/configuration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_email/controller.php" afterPath="$PROJECT_DIR$/administrator/components/com_email/controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_email/views/email/tmpl/default.php" afterPath="$PROJECT_DIR$/administrator/components/com_email/views/email/tmpl/default.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_helloworld/views/updhelloworld/tmpl/default.php" afterPath="$PROJECT_DIR$/components/com_helloworld/views/updhelloworld/tmpl/default.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_email/controllers/email.php" afterPath="$PROJECT_DIR$/administrator/components/com_email/controllers/email.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_email/models/email.php" afterPath="$PROJECT_DIR$/administrator/components/com_email/models/email.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administrator/components/com_email/script.php" afterPath="$PROJECT_DIR$/administrator/components/com_email/script.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_helloworld/models/updhelloworld.php" afterPath="$PROJECT_DIR$/components/com_helloworld/models/updhelloworld.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_helloworld/models/forms/updhelloworld.xml" afterPath="$PROJECT_DIR$/components/com_helloworld/models/forms/updhelloworld.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="seproject.iws" />
@@ -35,7 +33,7 @@
       <file leaf-file-name="updhelloworld.php" pinned="true" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/com_helloworld/models/updhelloworld.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="30" selection-start="657" selection-end="657" vertical-scroll-proportion="3.0" vertical-offset="595" max-vertical-offset="1955">
+            <state line="102" column="0" selection-start="3247" selection-end="3247" vertical-scroll-proportion="-6.392157" vertical-offset="1408" max-vertical-offset="1955">
               <folding />
             </state>
           </provider>
@@ -44,7 +42,7 @@
       <file leaf-file-name="email.php" pinned="true" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/administrator/components/com_email/models/email.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="12" selection-start="3301" selection-end="3301" vertical-scroll-proportion="0.4588015" vertical-offset="1778" max-vertical-offset="2380">
+            <state line="122" column="29" selection-start="3456" selection-end="3456" vertical-scroll-proportion="0.23595506" vertical-offset="1948" max-vertical-offset="2771">
               <folding />
             </state>
           </provider>
@@ -63,10 +61,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/administrator/components/com_email/controllers/emails.php" />
         <option value="$PROJECT_DIR$/administrator/components/com_email/models/emails.php" />
         <option value="$PROJECT_DIR$/administrator/components/com_email/tables/email.php" />
-        <option value="$PROJECT_DIR$/administrator/components/com_email/views/email/tmpl/default.php" />
         <option value="$PROJECT_DIR$/administrator/components/com_email/views/email/view.html.php" />
         <option value="$PROJECT_DIR$/administrator/components/com_email/views/emails/tmpl/default.php" />
         <option value="$PROJECT_DIR$/administrator/components/com_email/views/emails/tmpl/default_body.php" />
@@ -111,6 +107,8 @@
         <option value="$PROJECT_DIR$/administrator/components/com_email/helpers/email.php" />
         <option value="$PROJECT_DIR$/administrator/components/com_email/controller.php" />
         <option value="$PROJECT_DIR$/administrator/components/com_email/controllers/email.php" />
+        <option value="$PROJECT_DIR$/administrator/components/com_email/views/email/tmpl/default.php" />
+        <option value="$PROJECT_DIR$/components/com_helloworld/models/forms/updhelloworld.xml" />
         <option value="$PROJECT_DIR$/components/com_helloworld/views/updhelloworld/tmpl/default.php" />
         <option value="$PROJECT_DIR$/components/com_helloworld/models/updhelloworld.php" />
         <option value="$PROJECT_DIR$/administrator/components/com_email/models/email.php" />
@@ -288,6 +286,98 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com_helloworld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com_helloworld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com_helloworld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="language" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com_helloworld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="administrator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -329,6 +419,92 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="com_email" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="administrator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com_email" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="administrator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com_email" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="administrator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com_email" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -414,7 +590,11 @@
       <created>1409565589083</created>
       <updated>1409565589083</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Email Sending okay.">
+      <created>1409616052199</created>
+      <updated>1409616052199</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -457,26 +637,13 @@
     <MESSAGE value="Initial setup for final launch..." />
     <MESSAGE value="Fixed Interval commit" />
     <MESSAGE value="Code quality added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Code quality added." />
+    <MESSAGE value="Email Sending okay." />
+    <option name="LAST_COMMIT_MESSAGE" value="Email Sending okay." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_helloworld/access.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="564">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_helloworld/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_helloworld/controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="5" selection-start="916" selection-end="916" vertical-scroll-proportion="-7.72549" vertical-offset="235" max-vertical-offset="748">
@@ -509,7 +676,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="4" selection-start="516" selection-end="516" vertical-scroll-proportion="4.607843" vertical-offset="558" max-vertical-offset="1071">
           <folding>
-            <element signature="e#6#225#0" expanded="true" />
+            <element signature="e#6#225#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -542,13 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_helloworld/controllers/updhelloworld.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="1" selection-start="1654" selection-end="1654" vertical-scroll-proportion="-9.392157" vertical-offset="575" max-vertical-offset="1156">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/com_helloworld/views/helloworld/tmpl/default.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="19" selection-start="124" selection-end="124" vertical-scroll-proportion="-2.3333333" vertical-offset="0" max-vertical-offset="221">
@@ -566,20 +726,6 @@
     <entry file="file://$PROJECT_DIR$/components/com_helloworld/views/helloworld/view.html.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="1" selection-start="920" selection-end="920" vertical-scroll-proportion="-9.058824" vertical-offset="201" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_helloworld/views/updhelloworld/tmpl/default.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="564">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_helloworld/controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="1" selection-start="431" selection-end="431" vertical-scroll-proportion="-6.3333335" vertical-offset="0" max-vertical-offset="425">
           <folding />
         </state>
       </provider>
@@ -619,13 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_helloworld/models/helloworld.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="20" selection-start="1623" selection-end="1623" vertical-scroll-proportion="0.3843844" vertical-offset="875" max-vertical-offset="1734">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_email/email.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="27" selection-start="776" selection-end="776" vertical-scroll-proportion="-3.5294118" vertical-offset="228" max-vertical-offset="612">
@@ -643,41 +782,6 @@
     <entry file="file://$PROJECT_DIR$/administrator/components/com_email/tables/email.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="116" column="25" selection-start="2754" selection-end="2754" vertical-scroll-proportion="0.6426426" vertical-offset="1758" max-vertical-offset="2142">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_helloworld/views/updhelloworld/tmpl/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="34" selection-start="1022" selection-end="1022" vertical-scroll-proportion="-0.19607843" vertical-offset="415" max-vertical-offset="748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_helloworld/views/updhelloworld/view.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="1" selection-start="1591" selection-end="1591" vertical-scroll-proportion="0.80898875" vertical-offset="656" max-vertical-offset="1190">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_helloworld/models/updhelloworld.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="30" selection-start="657" selection-end="657" vertical-scroll-proportion="3.0" vertical-offset="595" max-vertical-offset="1955">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_email/models/forms/email.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_email/models/emails.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="359" selection-end="359" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
@@ -706,13 +810,6 @@
     <entry file="file://$PROJECT_DIR$/administrator/components/com_email/views/emails/view.html.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="20.607843" vertical-offset="1051" max-vertical-offset="1564">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_email/views/email/tmpl/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
           <folding />
         </state>
       </provider>
@@ -773,13 +870,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_helloworld/models/fields/helloworld.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="8" selection-start="137" selection-end="137" vertical-scroll-proportion="2.5294118" vertical-offset="248" max-vertical-offset="1003">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_helloworld/models/rules/greeting.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
@@ -808,16 +898,109 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_email/views/email/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="14" selection-start="1112" selection-end="1112" vertical-scroll-proportion="-9.215686" vertical-offset="91" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_email/models/forms/email.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="20.44" vertical-offset="511" max-vertical-offset="1071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_email/models/forms/email.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_helloworld/models/helloworld.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="20" selection-start="1623" selection-end="1623" vertical-scroll-proportion="0.54901963" vertical-offset="1031" max-vertical-offset="1734">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_helloworld/views/updhelloworld/tmpl/default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_helloworld/controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="1" selection-start="431" selection-end="431" vertical-scroll-proportion="-5.117647" vertical-offset="62" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_helloworld/views/updhelloworld/view.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="1" selection-start="1591" selection-end="1591" vertical-scroll-proportion="3.4871795" vertical-offset="0" max-vertical-offset="1190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_email/models/emails.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="28" selection-start="444" selection-end="444" vertical-scroll-proportion="-3.4705882" vertical-offset="163" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_helloworld/controllers/updhelloworld.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="68" selection-start="1246" selection-end="1246" vertical-scroll-proportion="-16.333334" vertical-offset="0" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_helloworld/models/forms/updhelloworld.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="22" selection-start="638" selection-end="638" vertical-scroll-proportion="-14.28" vertical-offset="0" max-vertical-offset="612">
+          <folding>
+            <marker date="1409628114544" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_helloworld/views/updhelloworld/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="5" selection-start="912" selection-end="912" vertical-scroll-proportion="-4.0588236" vertical-offset="201" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_helloworld/models/helloworlds.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="2" selection-start="207" selection-end="207" vertical-scroll-proportion="0.25468165" vertical-offset="0" max-vertical-offset="663">
+        <state line="31" column="16" selection-start="848" selection-end="848" vertical-scroll-proportion="-3.4509804" vertical-offset="351" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_helloworld/models/fields/helloworld.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="9" selection-start="802" selection-end="802" vertical-scroll-proportion="0.5165165" vertical-offset="440" max-vertical-offset="1003">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_helloworld/models/updhelloworld.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="0" selection-start="3247" selection-end="3247" vertical-scroll-proportion="-6.392157" vertical-offset="1408" max-vertical-offset="1955">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_email/models/email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="12" selection-start="3301" selection-end="3301" vertical-scroll-proportion="0.4588015" vertical-offset="1778" max-vertical-offset="2380">
+        <state line="122" column="29" selection-start="3456" selection-end="3456" vertical-scroll-proportion="0.23595506" vertical-offset="1948" max-vertical-offset="2771">
           <folding />
         </state>
       </provider>

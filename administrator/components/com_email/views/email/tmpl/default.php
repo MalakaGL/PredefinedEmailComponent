@@ -6,7 +6,9 @@ JHtml::_('behavior.tooltip');
 JHtml::_('behavior.formvalidation');
 $params = $this->form->getFieldsets('params');
 ?>
-<form action="<?php echo JRoute::_('index.php?option=com_email&layout=edit&id='.(int) $this->item->id); ?>" method="post" name="adminForm" id="email-form" class="form-validate">
+<form action="<?php echo JRoute::_(
+    'index.php?option=com_email&layout=edit&id='.(int) $this->item->id
+); ?>" method="post" name="adminForm" id="email-form" class="form-validate">
 
     <div class="width-60 fltlft">
         <fieldset class="adminform">
@@ -14,7 +16,9 @@ $params = $this->form->getFieldsets('params');
                 <?php
                 foreach($this->form->getFieldset('details') as $field):
                     ?>
-                    <li><?php echo $field->label;echo $field->input; echo "<br><br>"?></li>
+                    <li>
+                    <?php echo $field->label;echo $field->input; echo "<br><br>"?>
+                    </li>
                 <?php
                 endforeach;
                 ?>

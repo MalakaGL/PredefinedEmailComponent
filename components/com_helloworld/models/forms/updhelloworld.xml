@@ -19,7 +19,7 @@
         </field>
 
 		<field
-            name="email_title"
+            name="user"
             type="text"
 			description="COM_HELLOWORLD_FORM_DESC_UPDHELLOWORLD_GREETING"
 			label="COM_HELLOWORLD_FORM_LBL_UPDHELLOWORLD_GREETING"

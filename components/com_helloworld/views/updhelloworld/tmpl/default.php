@@ -21,8 +21,9 @@ $headingbgcolor = $menuparams->get("headingbgcolor");
           	    <dt><?php echo $this->form->getLabel('id'); ?></dt>
              	<dd><?php echo $this->form->getInput('id'); ?></dd>
                 <dt></dt><dd></dd>
-        	    <dt><?php echo $this->form->getLabel('email_title'); ?></dt>
-        	    <dd><?php echo $this->form->getInput('email_title'); ?></dd>
+        	    <dt><?php echo $this->form->getLabel('user'); ?></dt>
+        	    <dd><?php echo $this->form->getInput('user'); ?></dd>
+
                 <dt></dt><dd></dd>
                 <dt></dt>
             	<dd><input type="hidden" name="option" value="com_helloworld" />
