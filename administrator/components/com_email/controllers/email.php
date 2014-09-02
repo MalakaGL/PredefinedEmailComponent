@@ -17,30 +17,4 @@ jimport('joomla.application.component.controllerform');
  */
 class EmailControllerEmail extends JControllerForm
 {
-    /**
-     * Comment
-     *
-     * @return void
-     */
-    public function sendMail()
-    {
-        $mailer = JFactory::getMailer();
-        $config = JFactory::getConfig();
-        $sender = array($config->getValue('config.mailfrom'),
-            $config->getValue('config.fromname'));
-        $mailer->setSender($sender);
-        $user = JFactory::getUser();
-        $recipient = $user->email;
-        $mailer->addRecipient($recipient);
-        $body   = "Your body string\nin double quotes if you want
-            to parse the \nnewlines etc";
-        $mailer->setSubject('Your subject string');
-        $mailer->setBody($body);
-        $send = $mailer->Send();
-        if ( $send !== true ) {
-            echo 'Error sending email: ' . $send->__toString();
-        } else {
-            echo 'Mail sent';
-        }
-    }
 }

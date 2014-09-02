@@ -17,7 +17,6 @@ jimport('joomla.application.component.modeladmin');
  */
 class EmailModelEmail extends JModelAdmin
 {
-
     /**
      * Method override to check if you can edit an existing record.
      *
@@ -30,7 +29,10 @@ class EmailModelEmail extends JModelAdmin
     protected function allowEdit($data = array(), $key = 'id')
     {
         // Check specific edit permission then general edit permission.
-        return JFactory::getUser()->authorise('core.edit', 'com_email.message.'.((int) isset($data[$key]) ? $data[$key] : 0)) or parent::allowEdit($data, $key);
+        return JFactory::getUser()->authorise(
+            'core.edit',
+            'com_email.message.'.((int) isset($data[$key]) ? $data[$key] : 0)
+        ) or parent::allowEdit($data, $key);
     }
 
     /**
@@ -43,8 +45,9 @@ class EmailModelEmail extends JModelAdmin
      * @return	JTable	A database object
      * @since	1.6
      */
-    public function getTable($type = 'Email', $prefix = 'EmailTable', $config = array())
-    {
+    public function getTable(
+        $type = 'Email', $prefix = 'EmailTable', $config = array()
+    ) {
         return JTable::getInstance($type, $prefix, $config);
     }
 
@@ -52,7 +55,8 @@ class EmailModelEmail extends JModelAdmin
      * Method to get the record form.
      *
      * @param array	  $data     Data for the form.
-     * @param boolean $loadData True if the form is to load its own data (default case), false if not.
+     * @param boolean $loadData True if the form is to load its own data
+     * (default case), false if not.
      *
      * @return	mixed	A JForm object on success, false on failure
      * @since	1.6
@@ -60,7 +64,10 @@ class EmailModelEmail extends JModelAdmin
     public function getForm($data = array(), $loadData = true)
     {
         // Get the form.
-        $form = $this->loadForm('com_email.email', 'email', array('control' => 'jform', 'load_data' => $loadData));
+        $form = $this->loadForm(
+            'com_email.email',
+            'email', array('control' => 'jform', 'load_data' => $loadData)
+        );
         if (empty($form)) {
             return false;
         }
@@ -87,11 +94,42 @@ class EmailModelEmail extends JModelAdmin
     protected function loadFormData()
     {
         // Check the session for previously entered form data.
-        $data = JFactory::getApplication()->getUserState('com_email.edit.email.data', array());
+        $data = JFactory::getApplication()
+            ->getUserState('com_email.edit.email.data', array());
         if (empty($data)) {
             $data = $this->getItem();
         }
 
         return $data;
+    }
+
+    /**
+     * Comment
+     *
+     * @param string $recipient string
+     *
+     * @return void
+     */
+    function sendEMail($recipient,$id)
+    {
+        $mailer = JFactory::getMailer();
+        $config = JFactory::getConfig();
+        $sender = array($config->
+            getValue('config.mailfrom'), $config->getValue('config.fromname'));
+        $mailer->setSender($sender);
+        $user = JFactory::getUser();
+        $mailer->addRecipient($recipient);
+        $body   = "Your body string
+        \nin double quotes if you want to parse the \nnewlines etc";
+        $mailer->setSubject('Your subject string');
+        $mailer->setBody($body);
+        $send = $mailer->Send();
+        if ( $send !== true ) {
+            echo 'Error sending email: ' . $send->__toString();
+            return false;
+        } else {
+            echo 'Mail sent';
+            return true;
+        }
     }
 }

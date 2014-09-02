@@ -47,30 +47,4 @@ class EmailController extends JController
         JRequest::setVar('view', JRequest::getCmd('view', 'Email'));
         parent::display($cachable);
     }
-
-    /**
-     * Comment
-     *
-     * @param string $recipient string
-     *
-     * @return void
-     */
-    static function sendEMail($recipient){
-        //$recipient="glmalaka@gmail.com";
-        $mailer = JFactory::getMailer();
-        $config = JFactory::getConfig();
-        $sender = array($config->getValue('config.mailfrom'), $config->getValue('config.fromname'));
-        $mailer->setSender($sender);
-        $user = JFactory::getUser();
-        $mailer->addRecipient($recipient);
-        $body   = "Your body string\nin double quotes if you want to parse the \nnewlines etc";
-        $mailer->setSubject('Your subject string');
-        $mailer->setBody($body);
-        $send = $mailer->Send();
-        if ( $send !== true ) {
-            echo 'Error sending email: ' . $send->__toString();
-        } else {
-            echo 'Mail sent';
-        }
-    }
 }

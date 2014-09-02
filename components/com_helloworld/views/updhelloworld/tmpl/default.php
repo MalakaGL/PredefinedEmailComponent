@@ -29,8 +29,9 @@ $headingbgcolor = $menuparams->get("headingbgcolor");
             	    <input type="hidden" name="task" value="updhelloworld.submit" />
                 </dd>
                 <dt></dt>
-                <dd><button type="submit" class="button"><?php echo JText::_('Test Component'); ?></button>
-			                <?php echo JHtml::_('form.token'); ?>
+                <dd><button type="submit" class="button">
+                        <?php echo JText::_('Test Component'); ?></button>
+			            <?php echo JHtml::_('form.token'); ?>
                 </dd>
         	</dl>
         <fieldset>

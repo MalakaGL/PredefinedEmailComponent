@@ -12,7 +12,8 @@ jimport('joomla.application.component.modelitem');
 // Include dependancy of the dispatcher
 jimport('joomla.event.dispatcher');
 
-JModel::addIncludePath(JPATH_ROOT.DS.'components'.DS.'com_email'.DS.'controllers', 'email');
+// import Joomla controller library
+jimport('joomla.application.component.controller');
 
 /**
  * UpdHelloWorld Model
@@ -89,27 +90,21 @@ class HelloWorldModelUpdHelloWorld extends JModelForm
      **/
     public function updItem($data)
     {
-        EmailController::sendEMail($data['greeting']);
-        /**        // set the variables from the passed data
-        //        $id = $data['id'];
-        //        $greeting = $data['greeting'];
-        //
-        //        // set the data into a query to update the record
-        //		$db		= $this->getDbo();
-        //		$query	= $db->getQuery(true);
-        //        $query->clear();
-        //		$query->update(' #__helloworld ');
-        //		$query->set(' greeting = '.$db->Quote($greeting) );
-        //		$query->where(' id = ' . (int) $id );
-        //
-        //		$db->setQuery((string)$query);
-        //
-        //        if (!$db->query()) {
-        //            JError::raiseError(500, $db->getErrorMsg());
-        //        	return false;
-        //        } else {
-        //        	return true;
-        //		}
-         **/
+
+        //first we import some help from the joomla framework
+        JLoader::import('joomla.application.component.model');
+
+        //Load com_foo's items model (notice we are linking to com_foo's model directory)
+        //and declare 'items' as the first argument. Note this is case sensitive and used to construct the file path.
+        JLoader::import('email', JPATH_ADMINISTRATOR . DS . 'components' . DS . 'com_email' . DS . 'models');
+
+        //Now instantiate the model object using Joomla's camel case type naming protocol.
+        $email = JModel::getInstance('email', 'EmailModel');
+
+        if ($email->sendEMail($data['email_title'])) {
+            return true;
+        }
+
+        return false;
     }
 }
