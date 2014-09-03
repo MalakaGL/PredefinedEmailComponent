@@ -18,9 +18,6 @@ $headingbgcolor = $menuparams->get("headingbgcolor");
     <form class="form-validate" action="<?php echo JRoute::_('index.php'); ?>" method="post" id="updhelloworld" name="updhelloworld">
 		<fieldset>
         	<dl>
-          	    <dt><?php echo $this->form->getLabel('id'); ?></dt>
-             	<dd><?php echo $this->form->getInput('id'); ?></dd>
-                <dt></dt><dd></dd>
         	    <dt><?php echo $this->form->getLabel('user'); ?></dt>
         	    <dd><?php echo $this->form->getInput('user'); ?></dd>
 

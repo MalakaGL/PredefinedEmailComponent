@@ -88,7 +88,7 @@ class HelloWorldModelUpdHelloWorld extends JModelForm
      *
      * @return boolean
      **/
-    public function updItem($data)
+    public function sendEmail($data)
     {
 
         //first we import some help from the joomla framework

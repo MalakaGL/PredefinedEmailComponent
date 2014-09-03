@@ -50,11 +50,11 @@ class HelloWorldControllerUpdHelloWorld extends JControllerForm
         $data = JRequest::getVar('jform', array(), 'post', 'array');
 
         // Now update the loaded data to the database via a function in the model
-        $upditem	= $model->updItem($data);
+        $sendEmail	= $model->sendEmail($data);
 
         // check if ok and display appropriate message.
         // This can also have a redirect if desired.
-        if ($upditem) {
+        if ($sendEmail) {
             echo "<h2>Email was successfully sent.</h2>";
         } else {
             echo "<h2>Email was failed to sent.</h2>";

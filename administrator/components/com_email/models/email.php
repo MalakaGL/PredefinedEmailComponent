@@ -115,14 +115,16 @@ class EmailModelEmail extends JModelAdmin
     {
         $mailer = JFactory::getMailer();
         $config = JFactory::getConfig();
+        $email = $this->getEmail($id);
         $sender = array($config->
             getValue('config.mailfrom'), $config->getValue('config.fromname'));
-        $mailer->setSender($sender);
-        $email = $this->getEmail($id);
-        $mailer->addRecipient($recipient);
-        $body   = 'Sent by \n'.$email[4].'('.$email[5].')\n\n'.$email[3];
-        $mailer->setSubject($email[2]);
+        $body = 'Sent by<br>'.$email[4].'('.$email[5].')<br>'.$email[3];
+        $mailer->isHTML(true);
+        $mailer->Encoding = 'base64';
         $mailer->setBody($body);
+        $mailer->setSender($sender);
+        $mailer->addRecipient($recipient);
+        $mailer->setSubject($email[2]);
         $send = $mailer->Send();
         if ( $send !== true ) {
             return false;
